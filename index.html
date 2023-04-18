@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impact Chain | Web Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="container">
+        <h1 class="logo">Impact Chain</h1>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Decentralized Socio-Funding Platform</h1>
+          <p class="black-text">Empower social causes and enable secure and transparent transactions without intermediaries.</p>
+          <a href="https://github.com/Swap-neil-spec/IC-Landing-Page" class="cta-btn">Try It Now</a>
+        </div>
+        <div class="hero-img">
+          <img src="src/cf5.jpg" alt="Illustration of blockchain technology" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h2>About Impact Chain</h2>
+        <p>
+          Impact Chain is a decentralized socio-funding platform that empowers social causes and enables secure and transparent transactions without intermediaries. We leverage Solidity and blockchain technology to create a fair and accountable platform for all parties involved.
+        </p>
+        <a href="#" class="cta-btn">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="feature-box">
+          <div class="feature-img">
+            <img src="src/cf1.jpg" alt="Illustration of crowdfunding" />
+          </div>
+          <div class="feature-text">
+            <h3>Automated Funding Campaigns</h3>
+            <p>Our platform leverages smart contract principles to automate the execution of funding campaigns, ensuring fairness and accountability for all parties involved.</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="feature-img">
+            <img src="src/cf2.jpg" alt="Illustration of blockchain technology" />
+          </div>
+          <div class="feature-text">
+            <h3>Secure and Transparent Transactions</h3>
+            <p>Our platform uses blockchain technology to enable secure and transparent transactions without intermediaries.</p>
+          </div>
+        </div>
+        <div class="feature-box">
+          <div class="feature-img">
+            <img src="src/cf3.jpg" alt="Illustration of social causes" />
+          </div>
+          <div class="feature-text">
+            <h3>Empower Social Causes</h3>
+            <p>We believe that everyone should have the opportunity to make a positive impact on society. That's why we empower social causes by providing a platform for them to raise funds and increase awareness.</p>
+          </div>
+        </div>
+        <a href="#" class="cta-btn">Join Us Now</a>
+      </div>
+    </section>
+    <!-- Contact Section -->
+<section class="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+  <div class="container">
+    <p>Impact Chain &copy; 2023. All Rights Reserved | Made with ❤️ in my dorm room</p>
+  </div>
+</footer>
+
+</body>
+</html>
+<style>
+  /* Global Styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  /* Navigation Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 20px;
+  }
+
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-links li {
+    margin-right: 20px;
+  }
+
+  .nav-links li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .nav-links li a:hover {
+    color: #666;
+  }
+
+  /* Hero Section Styles */
+  .hero {
+    background-color: #eee;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-text {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .hero-text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .cta-btn:hover {
+    background-color: #666;
+  }
+
+  .hero-img img {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  /* About Section Styles */
+  .about {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .about h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  
